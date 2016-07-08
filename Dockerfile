@@ -16,6 +16,8 @@ RUN	apk --update add curl tar \
 
 EXPOSE 8090
 
+USER daemon:daemon
+
 VOLUME ${CONFLUENCE_HOME}
 
 WORKDIR ${CONFLUENCE_HOME}
