@@ -3,7 +3,7 @@ FROM anapsix/alpine-java:jdk
 # Configuration variables
 ENV CONFLUENCE_HOME     /var/atlassian/confluence
 ENV CONFLUENCE_INSTALL  /opt/atlassian/confluence
-ENV CONFLUENCE_VERSION  5.10.1
+ENV CONFLUENCE_VERSION  6.4.2
 
 # Install Atlassian JIRA and helper tools
 RUN	apk --update add curl tar \
