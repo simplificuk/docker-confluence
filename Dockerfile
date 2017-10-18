@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:jdk
+FROM anapsix/alpine-java:8
 
 # Configuration variables
 ENV CONFLUENCE_HOME     /var/atlassian/confluence
